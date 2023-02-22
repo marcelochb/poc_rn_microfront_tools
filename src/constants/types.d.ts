@@ -1,14 +1,12 @@
-import { ModelOfNavigator } from "./loan_navigator"
-
 type ModelOfNavigatorItem = {
   name: string;
   title: string;
 }
-type ModelOfNavigatorScreens = {
+ type ModelOfNavigatorScreens = {
   list: ModelOfNavigatorItem;
   detail: ModelOfNavigatorItem;
 }
-type ModelOfNavigator = {
+ type ModelOfNavigator = {
   stack: ModelOfNavigatorItem;
   screens: ModelOfNavigatorScreens;
 }
