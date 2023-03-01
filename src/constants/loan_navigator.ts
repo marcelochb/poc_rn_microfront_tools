@@ -1,8 +1,8 @@
 
 
-import { ModelOfNavigator } from "./types";
+import { INavigator } from "./types";
 
-export const LOAN_NAVIGATORS:ModelOfNavigator = {
+export const LOAN_NAVIGATORS:INavigator = {
   stack: {
     name: 'LoanStack',
     title: 'Empréstimos',

@@ -1,14 +1,14 @@
-type ModelOfNavigatorItem = {
+type INavigatorItem = {
   name: string;
   title: string;
 }
- type ModelOfNavigatorScreens = {
-  list: ModelOfNavigatorItem;
-  detail: ModelOfNavigatorItem;
+ type INavigatorScreens = {
+  list: INavigatorItem;
+  detail: INavigatorItem;
 }
- type ModelOfNavigator = {
-  stack: ModelOfNavigatorItem;
-  screens: ModelOfNavigatorScreens;
+ type INavigator = {
+  stack: INavigatorItem;
+  screens: INavigatorScreens;
 }
 
-export const LOAN_NAVIGATORS:ModelOfNavigator
+export const LOAN_NAVIGATORS:INavigator
